@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		10323A211E7087FA006C93CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10323A201E7087FA006C93CE /* AppDelegate.swift */; };
-		10323A231E7087FA006C93CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10323A221E7087FA006C93CE /* ViewController.swift */; };
-		10323A261E7087FA006C93CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10323A241E7087FA006C93CE /* Main.storyboard */; };
+		10323A231E7087FA006C93CE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10323A221E7087FA006C93CE /* LoginVC.swift */; };
 		10323A281E7087FA006C93CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10323A271E7087FA006C93CE /* Assets.xcassets */; };
 		10323A2B1E7087FA006C93CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10323A291E7087FA006C93CE /* LaunchScreen.storyboard */; };
+		10C2B0D11E734DED000CF39F /* password in Resources */ = {isa = PBXBuildFile; fileRef = 10C2B0D01E734DED000CF39F /* password */; };
+		10C2B10A1E74859C000CF39F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2B1091E74859C000CF39F /* MainVC.swift */; };
+		10C2B10C1E75C438000CF39F /* FindNewFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2B10B1E75C438000CF39F /* FindNewFriendVC.swift */; };
+		10C2B10F1E763995000CF39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C2B10D1E763995000CF39F /* Main.storyboard */; };
+		10C2B1111E784E67000CF39F /* MatchesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2B1101E784E67000CF39F /* MatchesVC.swift */; };
+		10C2B1131E785047000CF39F /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2B1121E785047000CF39F /* MatchCell.swift */; };
+		10C2B1151E7856B0000CF39F /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2B1141E7856B0000CF39F /* Match.swift */; };
+		36F6C46A47CB606D2651B2F8 /* Pods_Find_A_New_Friend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFF55176BDD9D3C5C845CA3 /* Pods_Find_A_New_Friend.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10323A1D1E7087FA006C93CE /* Find A New Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find A New Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10323A201E7087FA006C93CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10323A221E7087FA006C93CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		10323A251E7087FA006C93CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10323A221E7087FA006C93CE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		10323A271E7087FA006C93CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10323A2A1E7087FA006C93CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10323A2C1E7087FA006C93CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C2B0D01E734DED000CF39F /* password */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = password; sourceTree = "<group>"; };
+		10C2B1091E74859C000CF39F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		10C2B10B1E75C438000CF39F /* FindNewFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindNewFriendVC.swift; sourceTree = "<group>"; };
+		10C2B10E1E763995000CF39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C2B1101E784E67000CF39F /* MatchesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesVC.swift; sourceTree = "<group>"; };
+		10C2B1121E785047000CF39F /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		10C2B1141E7856B0000CF39F /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		5AFF55176BDD9D3C5C845CA3 /* Pods_Find_A_New_Friend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_A_New_Friend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C82A94333086EC29E84D613 /* Pods-Find A New Friend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find A New Friend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find A New Friend/Pods-Find A New Friend.debug.xcconfig"; sourceTree = "<group>"; };
+		F09841F93E60BD19DF43E654 /* Pods-Find A New Friend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find A New Friend.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find A New Friend/Pods-Find A New Friend.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F6C46A47CB606D2651B2F8 /* Pods_Find_A_New_Friend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				10323A1F1E7087FA006C93CE /* Find A New Friend */,
 				10323A1E1E7087FA006C93CE /* Products */,
+				329C096E8970C2238AC8FD83 /* Pods */,
+				72D0639C108323F5496A91EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,37 @@
 		10323A1F1E7087FA006C93CE /* Find A New Friend */ = {
 			isa = PBXGroup;
 			children = (
+				10C2B10D1E763995000CF39F /* Main.storyboard */,
 				10323A201E7087FA006C93CE /* AppDelegate.swift */,
-				10323A221E7087FA006C93CE /* ViewController.swift */,
-				10323A241E7087FA006C93CE /* Main.storyboard */,
+				10323A221E7087FA006C93CE /* LoginVC.swift */,
 				10323A271E7087FA006C93CE /* Assets.xcassets */,
 				10323A291E7087FA006C93CE /* LaunchScreen.storyboard */,
 				10323A2C1E7087FA006C93CE /* Info.plist */,
+				10C2B0D01E734DED000CF39F /* password */,
+				10C2B1091E74859C000CF39F /* MainVC.swift */,
+				10C2B10B1E75C438000CF39F /* FindNewFriendVC.swift */,
+				10C2B1101E784E67000CF39F /* MatchesVC.swift */,
+				10C2B1121E785047000CF39F /* MatchCell.swift */,
+				10C2B1141E7856B0000CF39F /* Match.swift */,
 			);
 			path = "Find A New Friend";
+			sourceTree = "<group>";
+		};
+		329C096E8970C2238AC8FD83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C82A94333086EC29E84D613 /* Pods-Find A New Friend.debug.xcconfig */,
+				F09841F93E60BD19DF43E654 /* Pods-Find A New Friend.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72D0639C108323F5496A91EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFF55176BDD9D3C5C845CA3 /* Pods_Find_A_New_Friend.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10323A2F1E7087FA006C93CE /* Build configuration list for PBXNativeTarget "Find A New Friend" */;
 			buildPhases = (
+				4D123C10EC373B7C303082E0 /* [CP] Check Pods Manifest.lock */,
 				10323A191E7087FA006C93CE /* Sources */,
 				10323A1A1E7087FA006C93CE /* Frameworks */,
 				10323A1B1E7087FA006C93CE /* Resources */,
+				7766B82BBFB21A1EE80913E2 /* [CP] Embed Pods Frameworks */,
+				7BEF60EAD0B13DE869516E19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,39 +170,93 @@
 			files = (
 				10323A2B1E7087FA006C93CE /* LaunchScreen.storyboard in Resources */,
 				10323A281E7087FA006C93CE /* Assets.xcassets in Resources */,
-				10323A261E7087FA006C93CE /* Main.storyboard in Resources */,
+				10C2B0D11E734DED000CF39F /* password in Resources */,
+				10C2B10F1E763995000CF39F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D123C10EC373B7C303082E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7766B82BBFB21A1EE80913E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Find A New Friend/Pods-Find A New Friend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEF60EAD0B13DE869516E19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Find A New Friend/Pods-Find A New Friend-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10323A191E7087FA006C93CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10323A231E7087FA006C93CE /* ViewController.swift in Sources */,
+				10C2B1111E784E67000CF39F /* MatchesVC.swift in Sources */,
+				10C2B10C1E75C438000CF39F /* FindNewFriendVC.swift in Sources */,
+				10323A231E7087FA006C93CE /* LoginVC.swift in Sources */,
+				10C2B1131E785047000CF39F /* MatchCell.swift in Sources */,
+				10C2B10A1E74859C000CF39F /* MainVC.swift in Sources */,
 				10323A211E7087FA006C93CE /* AppDelegate.swift in Sources */,
+				10C2B1151E7856B0000CF39F /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		10323A241E7087FA006C93CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10323A251E7087FA006C93CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		10323A291E7087FA006C93CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				10323A2A1E7087FA006C93CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		10C2B10D1E763995000CF39F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C2B10E1E763995000CF39F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,6 +357,7 @@
 		};
 		10323A301E7087FA006C93CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C82A94333086EC29E84D613 /* Pods-Find A New Friend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Find A New Friend/Info.plist";
@@ -270,6 +370,7 @@
 		};
 		10323A311E7087FA006C93CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09841F93E60BD19DF43E654 /* Pods-Find A New Friend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Find A New Friend/Info.plist";
@@ -299,6 +400,7 @@
 				10323A311E7087FA006C93CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
